@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gateway_example"
+version = "0.1.0"
+description = "Exemplo de gateway."
+authors = ["André Rocha <andre.rocha@enacom.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.3.0"
+mkdocs-material = "^8.2.13"
+customized_example = { git = "https://github.com/enacom/customized_example.git", tag = "0.2.0" }
+simplified_example = { git = "https://github.com/enacom/simplified_example.git", tag = "0.1.0" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools ~= 62.0", "cython ~= 0.29.0"]
+build-backend = "poetry.core.masonry.api"
+

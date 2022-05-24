@@ -1,0 +1,2 @@
+customized_example @ git+https://github.com/enacom/customized_example.git@0.2.0
+simplified_example @ git+https://github.com/enacom/simplified_example.git@0.1.0
